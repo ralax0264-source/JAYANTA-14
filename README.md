@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>JAYANTA 14 | Official Website</title>
+
+<meta name="description" content="Official website of JAYANTA 14">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(270deg,#ff416c,#ff4b2b,#6a11cb,#2575fc);
+background-size:800% 800%;
+animation:gradientMove 12s ease infinite;
+color:white;
+text-align:center;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+padding:40px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+box-shadow:0 0 25px rgba(0,0,0,0.3);
+animation:fadeIn 2s ease;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+img{
+width:200px;
+border-radius:20px;
+margin-bottom:20px;
+transition:0.4s;
+}
+
+img:hover{
+transform:scale(1.1);
+}
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.social a{
+font-size:35px;
+margin:15px;
+color:white;
+transition:0.3s;
+}
+
+.social a:hover{
+transform:scale(1.3);
+color:yellow;
+}
+
+.follow{
+margin-top:20px;
+font-size:18px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="jayanta.jpg" alt="JAYANTA 14">
+
+<h1>JAYANTA 14</h1>
+
+<p>Welcome to my official website</p>
+
+<div class="social">
+
+<a href="https://www.instagram.com/__jayanta___ll" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://www.youtube.com/@JAYANTA-f7q" target="_blank">
+<i class="fab fa-youtube"></i>
+</a>
+
+</div>
+
+<div class="follow">
+Subscribe & Follow
+</div>
+
+</div>
+
+</body>
+</html>
